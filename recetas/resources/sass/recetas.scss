@@ -1,0 +1,32 @@
+
+//body, en el cuerpo del proyecto
+body{
+    font-family: $parrafos-font-family;
+}
+
+//cuadro de texto de ingresdientes y rpeparación el tamaño
+trix-editor{
+    min-height:400px;
+
+}
+
+//Cmabiar el color de letra de la palabra Laravel, se ve desde el inspector del navegador
+.bg-primary .navbar-brand {
+
+    //aplicar estilo de letra escogida a la palabra Laravel
+    font-family: $font-family-sans-serif;
+    font-size: 1.5 rem;
+
+    color: yellow; 
+    //hce que al pasar de clic permanezcan las letras en el mismo color amarillo y no cambie de color
+    &:hover{color:yellow;
+    } 
+}
+
+//Cambiar de color la palabra login, tomado desde el inspector del navegador
+
+.navbar-light .navbar-nav .nav-link{
+    color:yellow;
+    &:hover{color:yellow;
+    } 
+}
