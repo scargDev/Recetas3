@@ -15,7 +15,7 @@ content-->
 <a href="{{route('recetas.index')}}" class="btn btn-primary mr-2  text-white">Lista de Recetas</a>
 
 @endsection
-
+<!--hola-->
 @section('content')
 <h2 class="text-center mb-5">Crear nueva receta </h2>
 <div>
